@@ -154,7 +154,6 @@ public class ForecastFragment extends Fragment {
                         .appendQueryParameter(FORMAT_PARAM, "json")
                         .appendQueryParameter(UNITS_PARAM, "metric")
                         .appendQueryParameter(DAYS_PARAM, Integer.toString(7)).build();
-                //Log.v(LOG_TAG, "URL: " + builtUri.toString());
 
                 URL url = new URL(builtUri.toString());
 
